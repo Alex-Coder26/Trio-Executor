@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIO EXECUTOR - Fast & Safe Roblox Executor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); color: #f0f0f0; min-height: 100vh; padding-bottom: 40px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 40px 20px; background: rgba(0,0,0,0.4); border-radius: 20px; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.1); }
+        .logo { display: flex; align-items: center; justify-content: center; gap: 15px; margin-bottom: 20px; }
+        .logo-icon { font-size: 2.5rem; color: #6c63ff; }
+        h1 { font-size: 3.5rem; background: linear-gradient(90deg, #6c63ff, #ff6b9d); -webkit-background-clip: text; background-clip: text; color: transparent; text-shadow: 0 5px 15px rgba(0,0,0,0.3); letter-spacing: 2px; }
+        .tagline { font-size: 1.2rem; color: #aaa; margin-top: 10px; font-style: italic; }
+        .main-content { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+        @media (max-width: 768px) { .main-content { grid-template-columns: 1fr; } }
+        .section { background: rgba(0,0,0,0.4); border-radius: 15px; padding: 30px; box-shadow: 0 8px 25px rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.05); transition: transform 0.3s ease; }
+        .section:hover { transform: translateY(-5px); }
+        .section-title { font-size: 1.8rem; margin-bottom: 20px; color: #6c63ff; display: flex; align-items: center; gap: 10px; }
+        .section p { line-height: 1.6; margin-bottom: 15px; color: #ddd; }
+        .highlight { color: #ff6b9d; font-weight: bold; }
+        .download-section { text-align: center; background: rgba(0,0,0,0.5); border-radius: 15px; padding: 40px; margin-top: 30px; border: 2px solid rgba(108,99,255,0.3); }
+        .download-btn { display: inline-block; background: linear-gradient(90deg, #6c63ff, #ff6b9d); color: white; font-size: 1.8rem; font-weight: bold; padding: 20px 50px; border-radius: 50px; text-decoration: none; margin: 20px 0; transition: all 0.3s ease; box-shadow: 0 10px 25px rgba(108,99,255,0.4); }
+        .download-btn:hover { transform: scale(1.05); box-shadow: 0 15px 35px rgba(108,99,255,0.6); }
+        .download-btn i { margin-right: 10px; }
+        .download-info { font-size: 1.1rem; color: #aaa; max-width: 800px; margin: 0 auto; line-height: 1.6; }
+        .features { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 25px; margin-top: 40px; }
+        .feature { background: rgba(255,255,255,0.05); border-radius: 12px; padding: 25px; text-align: center; transition: all 0.3s ease; }
+        .feature:hover { background: rgba(255,255,255,0.1); transform: translateY(-5px); }
+        .feature-icon { font-size: 2.5rem; color: #6c63ff; margin-bottom: 15px; }
+        .feature h3 { font-size: 1.4rem; margin-bottom: 10px; color: #f0f0f0; }
+        .feature p { color: #bbb; font-size: 0.95rem; }
+        footer { text-align: center; margin-top: 50px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); color: #888; }
+        .creator { font-size: 1.1rem; margin-top: 10px; color: #6c63ff; }
+        .warning { background: rgba(255,107,157,0.1); border-left: 4px solid #ff6b9d; padding: 15px; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        .read-more { display: inline-block; color: #6c63ff; text-decoration: none; font-weight: bold; margin-top: 10px; font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-bolt logo-icon"></i>
+                <h1>TRIO EXECUTOR</h1>
+            </div>
+            <p class="tagline">Fast, Safe & Undetected Roblox Script Executor</p>
+        </header>
+        <div class="main-content">
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-rocket"></i> Our Work</h2>
+                <p>I thought there was no PC Roblox Executor so I made my own Executor called <span class="highlight">Trio Executor</span>.</p>
+                <p>Here you have to inject the executor, put script inside the text box and execute. You can then close or minimize your executor.</p>
+                <p class="highlight">And boom! You script fast and safe.</p>
+                <div class="warning"><p><i class="fas fa-exclamation-triangle"></i> Always use executors responsibly and respect Roblox's terms of service.</p></div>
+                <a href="#" class="read-more">READ MORE <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-shield-alt"></i> Safety First</h2>
+                <p>The main thing that matters is your account safety. I made this executor very safe from Roblox executor detector and BAN waves.</p>
+                <p>Trio Executor uses advanced injection techniques and encryption to ensure your account remains secure while using scripts.</p>
+                <div class="features">
+                    <div class="feature"><i class="fas fa-user-shield feature-icon"></i><h3>Account Protection</h3><p>Advanced protection against detection systems</p></div>
+                    <div class="feature"><i class="fas fa-tachometer-alt feature-icon"></i><h3>Fast Execution</h3><p>Quick script injection and execution</p></div>
+                    <div class="feature"><i class="fas fa-code feature-icon"></i><h3>Easy to Use</h3><p>Simple interface for beginners and experts</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="download-section">
+            <h2 class="section-title"><i class="fas fa-download"></i> Download Trio Executor</h2>
+            <p class="download-info">Get the latest version of Trio Executor for Windows PC. The download is safe, secure, and free from malware.</p>
+            <!-- REPLACE THIS WITH YOUR ACTUAL DOWNLOAD LINK -->
+            <a href="https://drive.google.com/file/d/15GRglWxXgq4FBwq7SdFGRzbpjVjV0RXc/view?usp=drive_link" id="downloadLink" class="download-btn">
+                <i class="fas fa-download"></i> DOWNLOAD NOW
+            </a>
+            <p class="download-info"><i class="fas fa-info-circle"></i> File size: ~25MB | Version: 2.1.4 | Platform: Windows 10/11</p>
+        </div>
+        <footer>
+            <p>Trio Executor &copy; 2023. All rights reserved.</p>
+            <p class="creator">MADE BY ALEX</p>
+        </footer>
+    </div>
+    <script>
+        document.getElementById('downloadLink').addEventListener('click', function(e) {
+            this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> DOWNLOAD STARTING...';
+            this.style.background = 'linear-gradient(90deg, #4CAF50, #2E7D32)';
+            setTimeout(() => {
+                this.innerHTML = '<i class="fas fa-download"></i> DOWNLOAD NOW';
+                this.style.background = 'linear-gradient(90deg, #6c63ff, #ff6b9d)';
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
